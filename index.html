@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles.css">
+  <title>SOUNDBOARD</title>
+</head>
+<body>
+  <header>
+    <h1>SOUNDBOARD</h1>
+  </header>
+  <div class="main">
+    <div class="backgroundImg"></div>
+    <div class="soundboard">
+      <div class="soundboard_keyboard1">
+        <ul >
+          <li class="soundboard_keyboard1-key"><button data-key="81" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard1-key"><button data-key="87" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard1-key"><button data-key="69" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard1-key"><button data-key="82" class="soundboard_keyboard-button transition"></button></li>
+        </ul>
+      </div>
+      <div class="soundboard_keyboard2">
+        <ul>
+          <li class="soundboard_keyboard2-key"><button data-key="65" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard2-key"><button data-key="68" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard2-key"><button data-key="70" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard2-key"><button data-key="90" class="soundboard_keyboard-button transition"></button></li>
+        </ul>
+      </div>
+      <div class="soundboard_keyboard3">
+        <ul>
+          <li class="soundboard_keyboard3-key"><button data-key="88"  class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard3-key"><button data-key="67" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard3-key"><button id="11" class="soundboard_keyboard-button transition"></button></li>
+          <li class="soundboard_keyboard3-key"><button id="12" class="soundboard_keyboard-button transition"></button></li>
+        </ul>
+      </div>
+    </div>
+      <audio data-key="81" src="audio/synthesizer02.wav"></audio>
+      <audio data-key="87" src="audio/drum_bass.wav"></audio>
+      <audio data-key="69" src="audio/piano1.wav"></audio>
+      <audio data-key="82" src="audio/piano3.wav"></audio>
+      <audio data-key="65" src="audio/piano5.wav"></audio>
+      <audio data-key="68" src="audio/synthesizer01.wav"></audio>
+      <audio data-key="70" src="audio/synthesizer06.wav"></audio>
+      <audio data-key="90" src="audio/synthesizer13.wav"></audio>
+      <audio data-key="88" src="audio/synthesizer23.wav"></audio>
+      <audio data-key="67" src="audio/brass3.wav"></audio>
+  </div>
+  <script src="./script.js" charset="utf-8"></script>
+</body>
+</html>
